@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,100;1,300&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -12,7 +15,7 @@
             Header Logo
         </div>
         <div class="header-right">
-            <ul>
+            <ul class="navigation">
                 <li>
                     <a href="">header link one</a>
                 </li>
@@ -27,24 +30,39 @@
     </header>
     <div class="page">
         <div class="box1">
-            <h1>This website is awesome</h1>
-            <p>This website has some subtext that goes here under the main 
-                title. It's a smaller font and the color is lower contrast
-            </p>
-            <button class="sign-up">Sign Up</button>
+            <div class="box1-left">
+                <h1>This website is awesome</h1>
+                <p>This website has some subtext that goes here under the main 
+                    title. It's a smaller font and the color is lower contrast
+                </p>
+                <button class="sign-up">Sign Up</button>
+            </div>
+            <div class="box1-right">
+                <div class="img-placeholder">
+                    this is a placeholder for an image
+                </div>
+            </div>
         </div>
         <div class="box2">
             <h2>Some random information.</h2>
             <div class="center-boxes-container">
                 <div class="center-box">
-                    <div class="box-border"></div>
-                    <p class="subtext">this is some subtext under an illustration or image</p>
-                    <div class="box-border"></div>
-                    <p class="subtext">this is some subtext under an illustration or image</p>
-                    <div class="box-border"></div>
-                    <p class="subtext">this is some subtext under an illustration or image</p>
-                    <div class="box-border"></div>
-                    <p class="subtext">this is some subtext under an illustration or image</p>
+                    <div class="box-container">
+                        <div class="box-border"></div>
+                        <p class="subtext">this is some subtext under an illustration or image</p>
+                    </div>
+                    <div class="box-container">
+                        <div class="box-border"></div>
+                        <p class="subtext">this is some subtext under an illustration or image</p>
+                    </div>
+                    <div class="box-container">
+                        <div class="box-border"></div>
+                        <p class="subtext">this is some subtext under an illustration or image</p>
+                    </div>
+                    <div class="box-container">
+                        <div class="box-border"></div>
+                        <p class="subtext">this is some subtext under an illustration or image</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -57,8 +75,10 @@
         </div>
         <div class="box4">
             <div class="call-to-action-box">
-                <h3>Call to action! It's time!</h3>
-                <p>Sign up for our product by clicking that button right over there!</p>
+                <div class="call-to-action-left">
+                    <h3>Call to action! It's time!</h3>
+                    <p>Sign up for our product by clicking that button right over there!</p>
+                </div>
                 <button class="sign-up">Sign up</button>
             </div>
         </div>

@@ -78,13 +78,19 @@ li {
 }
 
 .box1 {
-    padding: 0 15vw;
     background-color: #1F2937;
     height: 400px;
     display: flex;
     align-items: center;
-    gap: 64px;
+    justify-content: center;
     /* background-color: aqua; */
+
+}
+
+.box1-container {
+    display: flex;
+    gap: 64px;
+    /* background-color: green; */
 }
 
 .box1-left {
@@ -109,21 +115,11 @@ button {
 .box1-right {
     color: #F9FAF8;
     font-size: 12px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* background-color: aqua; */
-    flex: 1;
-}
-
-.img-placeholder {
     background-color: #73787e;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 300px;
-    height: 150px;
-    margin: 16px;
+    flex: 1;
 }
 
 
